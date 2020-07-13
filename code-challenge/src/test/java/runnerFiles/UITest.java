@@ -12,7 +12,6 @@ import util.CustomAbstractTestNGCucumberTests;
         glue = {"stepDefinitions"},
         plugin = {
                 "pretty",
-                "json:target/cucumber-reports/smokeTestResults.json",
                 "html:target/cucumber-reports"
         },
         monochrome = false
